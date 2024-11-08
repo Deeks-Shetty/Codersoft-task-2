@@ -1,0 +1,141 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: linear-gradient(to bottom right, #f0f8ff, #cce7ff);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+header {
+  background: linear-gradient(135deg, #1488ae, #2f9ea1);
+  color: #fff;
+  padding: 2.5rem 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #f0f8ff;
+}
+
+.profile-pic{
+  width: 200px;
+  height: 200px;
+  justify-content: #f8f8f8;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+  color: #1488ae;
+}
+
+
+#about {
+  padding: 2rem 0;
+  background: #fdfdfd;
+  text-align: center;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+
+#skills {
+  padding: 2rem 0;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+#skills li {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #1488ae;
+  color: #fff;
+  margin: 0.5rem;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+
+#skills li:hover {
+  background: #2f9ea1;
+}
+
+
+#projects {
+  padding: 2rem 0;
+  background: #fafafa;
+}
+
+.project {
+  background: #e0f7fa;
+  padding: 1.2rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#contact {
+  padding: 2rem 0;
+  text-align: center;
+  background: #f0f8ff;
+}
+
+#contact a {
+  color: #1488ae;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#contact a:hover {
+  color: #2f9ea1;
+  text-decoration: underline;
+}
+
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem 0;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
